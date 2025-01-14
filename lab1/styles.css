@@ -1,7 +1,7 @@
 body {
   background-color: grey;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .calculator-container {
@@ -47,7 +47,6 @@ body {
 }
 .submit {
   height: 40px;
->>>>>>> calculator
 }
 
 #navhead {
