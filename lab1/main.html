@@ -1,15 +1,38 @@
 <!DOCTYPE HTML>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="calculate.js"> </script>
 </head> 
 
 <body>
+<<<<<<< HEAD
   <nav id="navhead">
     <ul class="dropshadow">
       <li><a href="#"> Home Page </a></li>
       <li><a href="#binarydecimal"> Binary>Decimal Converter </a></li>
     </ul>
   </nav>
+=======
+  <nav></nav>
+  <div class="calculator">
+    <h1>Binary to Decimal Convertor</h1>
+
+    <div class="calculator-container">
+
+      <div class="binary">
+        <h3>Enter value in binary</h3>  
+          <input class="binary-input" id="binary-input" type="text" name="binary-input" value="0" pattern="[0-1]{1,32}">
+          <input class="submit" type="submit" name="submit" value="Calculate" onclick="getValue()">
+      </div>
+
+      <div class="decimal">
+        <h3>Decimal Value</h3>
+        <p class="output" id="decimal-output"></p>
+      </div>
+    </div>
+
+  </div>
+>>>>>>> calculator
 </body>
 
 <footer>
